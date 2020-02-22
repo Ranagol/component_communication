@@ -6,9 +6,10 @@
 </template>
 
 <script>
-    export default {
+  import { eventBus } from './main';
+  export default {
 
-    }
+  }
 </script>
 
 <style>

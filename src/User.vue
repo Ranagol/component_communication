@@ -6,14 +6,12 @@
       <button @click="changeToMerlin" class="btn btn-info">Change name to Merlin</button>
       <button @click="changeToArthur" class="btn btn-info">Change name to Arthur</button>
       <hr>
-      <userdetail-tag></userdetail-tag>
-      <useredit-tag></useredit-tag>
+      
     </div>
 </template>
 
 <script>
-  import UserDetail from './UserDetail.vue';
-  import UserEdit from './UserEdit.vue';
+  
   
   export default {
 
@@ -34,10 +32,7 @@
       }
     },
 
-    components: {
-      'useredit-tag': UserEdit,
-      'userdetail-tag': UserDetail,
-    }
+    
   }
 </script>
 
